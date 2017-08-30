@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CoroPaulus_Example' do
+  pod 'CoroPaulus', :path => '../'
+
+  target 'CoroPaulus_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
