@@ -1,0 +1,6 @@
+framework module Pods_CoroPaulus_Tests {
+  umbrella header "Pods-CoroPaulus_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

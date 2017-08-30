@@ -1,0 +1,16 @@
+PODS:
+  - CoroPaulus (0.1.0)
+
+DEPENDENCIES:
+  - CoroPaulus (from `../`)
+
+EXTERNAL SOURCES:
+  CoroPaulus:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CoroPaulus: eb1f43a7f8d3578d4a5602dbca08935d368901f6
+
+PODFILE CHECKSUM: dbf55f2e253dbc27909dcc67c4a7651dba023d0e
+
+COCOAPODS: 1.2.0

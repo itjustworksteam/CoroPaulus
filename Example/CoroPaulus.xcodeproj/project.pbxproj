@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		94ECA3E35F9C43F0D599690A /* Pods_CoroPaulus_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BF11EDA85AA42E1D365233 /* Pods_CoroPaulus_Example.framework */; };
+		9C6F10171F5729F600689AE6 /* CantiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F10161F5729F600689AE6 /* CantiTableViewController.swift */; };
 		B8CC8A5DD8BDC23FA7F984C0 /* Pods_CoroPaulus_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD12BCAD756B53D724A457B /* Pods_CoroPaulus_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,11 +31,10 @@
 		238332532FA77DED1C8839E4 /* Pods-CoroPaulus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoroPaulus_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoroPaulus_Tests/Pods-CoroPaulus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		238D26BE928B712F625F11BC /* Pods-CoroPaulus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoroPaulus_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoroPaulus_Example/Pods-CoroPaulus_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		367EAB474896AD6165604EA6 /* Pods-CoroPaulus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoroPaulus_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoroPaulus_Tests/Pods-CoroPaulus_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4405B1A4A18BB05F9A38F4E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4405B1A4A18BB05F9A38F4E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CoroPaulus_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoroPaulus_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -44,9 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79BF11EDA85AA42E1D365233 /* Pods_CoroPaulus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoroPaulus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9030B919876D60371FBA6ACA /* Pods-CoroPaulus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoroPaulus_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoroPaulus_Example/Pods-CoroPaulus_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9C6F10161F5729F600689AE6 /* CantiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CantiTableViewController.swift; sourceTree = "<group>"; };
 		CAD12BCAD756B53D724A457B /* Pods_CoroPaulus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoroPaulus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1451528E6613C8E81F110C /* CoroPaulus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CoroPaulus.podspec; path = ../CoroPaulus.podspec; sourceTree = "<group>"; };
-		F9F0FDEEDD37526A2C488973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC1451528E6613C8E81F110C /* CoroPaulus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CoroPaulus.podspec; path = ../CoroPaulus.podspec; sourceTree = "<group>"; };
+		F9F0FDEEDD37526A2C488973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,8 @@
 		607FACD21AFB9204008FA782 /* Example for CoroPaulus */ = {
 			isa = PBXGroup;
 			children = (
+				9C6F10161F5729F600689AE6 /* CantiTableViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -361,8 +361,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				9C6F10171F5729F600689AE6 /* CantiTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,6 @@
+framework module CoroPaulus {
+  umbrella header "CoroPaulus-umbrella.h"
+
+  export *
+  module * { export * }
+}
