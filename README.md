@@ -1,5 +1,7 @@
 # CoroPaulus
 
+[![Build Status](https://travis-ci.org/itjustworksteam/CoroPaulus.svg?branch=master)](https://travis-ci.org/itjustworksteam/CoroPaulus)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
